@@ -1,8 +1,10 @@
+import { Entry } from "./Entry";
+import { UserPublic } from "../features/login/User";
+
+
 export interface Group {
     id: number;
-    title: string;
-    description: string;
-
-    persons? :string[];
-
+    name: string;
+    users: UserPublic[]
+    entries: Entry[];
 }
