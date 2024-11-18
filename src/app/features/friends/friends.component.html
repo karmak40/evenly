@@ -1,0 +1,25 @@
+<p>friends-list works!</p>
+
+<mat-grid-list cols="6" rowHeight=200px>
+    <mat-grid-tile colspan="1">1</mat-grid-tile>
+
+    <mat-grid-tile colspan="4" rowspan="3">
+
+        <div class="leftVerticalAlign">
+            <mat-list role="list">
+                <mat-list-item role="listitem">Item 1</mat-list-item>
+                <mat-list-item role="listitem">Item 2</mat-list-item>
+                <mat-list-item role="listitem">Item 3</mat-list-item>
+            </mat-list>
+        </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1">
+
+        <button mat-fab extended>
+            <mat-icon>add</mat-icon>
+            Add Friend
+          </button>
+
+    </mat-grid-tile>
+</mat-grid-list>

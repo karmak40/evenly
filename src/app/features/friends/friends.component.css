@@ -1,0 +1,11 @@
+mat-grid-tile {
+    background: grey;
+  }
+
+  .leftVerticalAlign {
+    left: 15em;    
+    bottom:12em;
+    width: 100%;
+    position: relative;  
+    right: 1em;    
+  }

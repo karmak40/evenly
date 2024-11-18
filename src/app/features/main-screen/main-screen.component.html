@@ -1,0 +1,38 @@
+<mat-grid-list cols="5" rowHeight="100px">
+  <mat-grid-tile [colspan]="5" [rowspan]="1.5">Header</mat-grid-tile>
+
+
+
+  <mat-grid-tile [colspan]="5" [rowspan]="6">
+
+    <div class="leftVerticalAlign">
+
+      <mat-tab-group>
+        <mat-tab label="Friends"> 
+          
+          
+          
+          <app-friends></app-friends>
+
+
+        </mat-tab>
+        <mat-tab label="Groups">  
+
+          <app-groups></app-groups>
+
+        </mat-tab>
+        <mat-tab label="Activity"> Content 3 </mat-tab>
+        <mat-tab label="Account"> Content 3 </mat-tab>
+      </mat-tab-group>
+
+    </div>
+
+
+  </mat-grid-tile>
+
+  <mat-grid-tile [colspan]="5" [rowspan]="1" [rowspan]="1.5">
+    
+    Footer
+
+  </mat-grid-tile>
+</mat-grid-list>
